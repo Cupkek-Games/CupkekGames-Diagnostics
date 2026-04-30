@@ -1,0 +1,41 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Plugins/CupkekGames/Utils/Runtime/Monitor/Monitor.uss?fileID=7433441132597879392&amp;guid=6cbf379c228b60149bef6843803e8fe5&amp;type=3#Monitor"/>
+    <ui:VisualElement name="MonitorContainer" picking-mode="Ignore" class="monitor-container">
+        <ui:VisualElement name="FPS" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="FPS:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="0" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="FrameTime" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="Frame Time:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="0 ms" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Memory" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="Memory:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="0 MB" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Resolution" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="Resolution:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="0x0" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="GraphicsAPI" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="Graphics API:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="Unknown" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="GPU" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="GPU:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="Unknown" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="VRAM" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="VRAM:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="0 MB" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CPU" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="CPU:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="Unknown" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="OS" class="monitor-line" picking-mode="Ignore">
+            <ui:Label text="OS:" class="name" picking-mode="Ignore"/>
+            <ui:Label text="Unknown" class="value" picking-mode="Ignore"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
